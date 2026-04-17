@@ -100,3 +100,96 @@ for i in range(6,0,-1):
 #         print(i * j, end=" ")
 #     print()
 
+'''
+print list items
+'''
+
+# arr = [1,2,300,45]
+
+# for i in arr:
+#     print(i)
+
+''' find sum of list '''
+
+# arr = list([1,2,3,4])
+# # print(type(arr))
+# sum = 0
+# for i in arr:
+#     sum += i
+
+# print(sum)
+
+''' count even numbers in a list '''
+
+# arr = [10,20,50,55,77]
+# arr = list(map(int, input("Enter numbers (comma separated): ").split(",")))
+# e_count = 0
+# o_count = 0
+
+# for i in arr:
+#     if i%2 == 0:
+#         e_count += 1
+#     else:
+#         o_count += 1
+# print("Even = ",e_count)
+# print("Odd = ",o_count)
+
+# # 33. Multiply all elements
+# arr = [1, 2, 3, 4]
+# m = 1
+
+# for i in arr:
+#     m *= i
+
+# print(m)
+
+# print dictionary key
+
+d = {"a":1,"b":2}
+# for key in d:
+#     print(key)
+
+# print dictionary values
+
+# for val in d.values():
+#     print(val)
+
+# print keys and value pair
+
+# for k,v in d.items():
+#     print(k,v)
+
+''' print ascii values '''
+
+# for ch in "ABC":
+#     print(ord(ch))
+
+''' convert ascii to character '''
+
+# for i in range(65,70):
+#     print(chr(i), end=',')
+
+
+#  45. Count words in string
+# s = "hello world python"
+# print(len(s.split()))
+
+# find max in list
+
+# arr = [1,2,11,55,0]
+# m = arr[0]
+# for i in arr:
+#     if i > m:
+#         m = i
+# print(m)
+
+#  49. Print index and value
+# arr = [10, 20, 30]
+
+# for i in range(len(arr)):
+#     print(i, arr[i])
+
+# for i in range(5):
+#     for j in range(5):
+#         print("*", end=" ")
+#     print()
