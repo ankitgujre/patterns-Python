@@ -193,3 +193,26 @@ d = {"a":1,"b":2}
 #     for j in range(5):
 #         print("*", end=" ")
 #     print()
+
+
+# palindrome check
+
+# n = int(input("Enter any number: "))
+# if str(n) == str(n)[::-1]:
+# a = input("Enter anything: ")
+# if a == a[::-1]:
+#     print(a, "is palindrome")
+# else:
+#     print("Not palindrome")
+
+# check prime
+
+n = int(input("Enter any number: "))
+
+if n > 0:
+    for i in range(2,n):
+        if n%i == 0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime")
